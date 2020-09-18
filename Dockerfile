@@ -1,4 +1,4 @@
-FROM gradle
+FROM gradle:jre14
 ENV TZ=Europe/Berlin
 
 RUN apt update && apt install -y software-properties-common
